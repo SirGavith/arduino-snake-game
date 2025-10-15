@@ -46,3 +46,6 @@ In the case that the joystick makes the snake turn in the wrong direction:
 
 In the case that the snake goes away or some other software glitch:
 - Reboot the system by pressing the Arduino’s reset button or reuploading the software.
+
+## Code
+Code can be found at https://github.com/SirGavith/arduino-snake-game/blob/main/snake.ino
