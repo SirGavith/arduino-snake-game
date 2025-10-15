@@ -21,7 +21,7 @@ To wire together the system, begin by placing each component on the breadboard. 
 
 Next, connect the Dot Matrix Module CLK, CS, and DIN to the Arduino using digital pins 10, 11, and 12, respectively. Connect the Joystick Module Vy and Vx to the Arduino Analog pins 0 and 1 respectively. Finally, connect the ground and Vcc of the Dot Matrix Module and the Joystick Module to the busses, and connect them to the Arduino 5V and GND.
 
-
+![Figure I](arduinowiringdiagram.png)
 Figure I: A wiring diagram for the completed device.
 
 The 74HC595 Shift Register is used so that the Arduino can use only three output pins to control all eight inputs to the 7-segment display. It does this by shifting out a byte one bit at a time, the timing given by the clock.
